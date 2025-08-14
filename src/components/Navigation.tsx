@@ -58,12 +58,12 @@ const Navigation = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" asChild>
-              <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+              <a href="https://salescentri.com/get-started/free-trial" target="_self" rel="noopener noreferrer">
                 Free Trial
               </a>
             </Button>
             <Button variant="cta" asChild>
-              <a href="https://salescentri.com/get-started/book-demo" target="_blank" rel="noopener noreferrer">
+              <a href="https://salescentri.com/get-started/book-demo" target="_self" rel="noopener noreferrer">
                 Book Demo
               </a>
             </Button>
