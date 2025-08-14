@@ -211,7 +211,7 @@ const Features = () => {
           </div>
 
           <Button variant="cta" size="lg" asChild>
-            <a href="https://salescentri.com/solutions/psa-suite/integrations" target="_blank" rel="noopener noreferrer">
+            <a href="https://salescentri.com/solutions/psa-suite/integrations" target="_self" rel="noopener noreferrer">
               View All Integrations
               <Globe className="ml-2 h-5 w-5" />
             </a>
@@ -230,12 +230,12 @@ const Features = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="secondary" size="lg" asChild>
-              <a href="https://salescentri.com/get-started/book-demo" target="_blank" rel="noopener noreferrer">
+              <a href="https://salescentri.com/get-started/book-demo" target="_self" rel="noopener noreferrer">
                 Schedule Free Consultation
               </a>
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary" asChild>
-              <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" size="lg" className="border-white text-primary hover:bg-white hover:text-primary" asChild>
+              <a href="https://salescentri.com/get-started/free-trial" target="_self" rel="noopener noreferrer">
                 Start Free Trial
               </a>
             </Button>
