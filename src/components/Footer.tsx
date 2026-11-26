@@ -178,7 +178,7 @@ const Footer = () => {
                 © {currentYear} UpCompanyMarketing Solutions. All rights reserved.
               </p>
               <div className="flex space-x-4">
-                <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Privacy Policy
                 </Link>
                 <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
